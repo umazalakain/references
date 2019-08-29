@@ -39,6 +39,18 @@
   year = {2018}
 }
 
+@article{Altenkirch2015,
+  abstract = {We show that the syntactically rich notion of strictly positive families can be reduced to a core type theory with a fixed number of type constructors exploiting the novel notion of indexed containers. As a result, we show indexed containers provide normal forms for strictly positive families in much the same way that containers provide normal forms for strictly positive types. Interestingly, this step from containers to indexed containers is achieved without having to extend the core type theory. Most of the construction presented here has been formalized using the Agda system.},
+  author = {Altenkirch, Thorsten and Ghani, Neil and Hancock, Peter and Mcbride, Conor and Morris, Peter},
+  doi = {10.1017/S095679681500009X},
+  file = {/home/uma/references/papers/Altenkirch et al_2015_Indexed containers.pdf},
+  journal = {Journal of Functional Programming},
+  month = feb,
+  title = {Indexed Containers},
+  volume = {25},
+  year = {2015}
+}
+
 @article{Backus1960,
   author = {Backus, J. W. and Bauer, F. L. and Green, J. and Katz, C. and McCarthy, J. and Perlis, A. J. and Rutishauser, H. and Samelson, K. and Vauquois, B. and Wegstein, J. H. and {van Wijngaarden}, A. and Woodger, M.},
   doi = {10.1145/367236.367262},
@@ -51,6 +63,30 @@
   title = {Report on the {{Algorithmic Language ALGOL}} 60},
   volume = {3},
   year = {1960}
+}
+
+@book{Barendregt1984,
+  address = {{Amsterdam ; New York : New York, N.Y}},
+  author = {Barendregt, H. P.},
+  edition = {Rev. ed},
+  isbn = {978-0-444-86748-3 978-0-444-87508-2},
+  keywords = {Lambda calculus},
+  lccn = {QA9.5 .B36 1984},
+  number = {v. 103},
+  publisher = {{North-Holland ; Sole distributors for the U.S.A. and Canada, Elsevier Science Pub. Co}},
+  series = {Studies in Logic and the Foundations of Mathematics},
+  shorttitle = {The Lambda Calculus},
+  title = {The Lambda Calculus: Its Syntax and Semantics},
+  year = {1984}
+}
+
+@article{Black1999,
+  abstract = {We formally verify that a particular web server written in C is secure, that is, a remote user cannot get files he shouldn't or change the server's files. Although the code was thoroughly reviewed and tested, the verification located some heretofore unknown behavioral weaknesses. To verify this code, we invented new inference rules for reasoning about expressions with side effects, which occur often in C. We also formalized aspects of Unix file systems and processes, operating system and library calls, parts of the C language, and security properties. We propose an architecture for a software verification system which could be widely useful, and argue that our proof demonstrates that real world software written in real world languages can be verified.},
+  author = {Black, Paul},
+  file = {/home/uma/.zotero/data/storage/JZNUYJSH/Black - 1999 - Axiomatic Semantics Verification of a Secure Web S.pdf},
+  month = jan,
+  title = {Axiomatic {{Semantics Verification}} of a {{Secure Web Server}}},
+  year = {1999}
 }
 
 @article{Bock2016,
@@ -105,6 +141,14 @@
   year = {2010}
 }
 
+@article{Carbone,
+  author = {Carbone, Marco},
+  file = {/home/uma/.zotero/data/storage/KZQLEKIG/Carbone - Mechanising your proofs in Coq.pdf},
+  language = {en},
+  pages = {16},
+  title = {Mechanising Your Proofs in {{Coq}}}
+}
+
 @inproceedings{Casinghino2014,
   author = {Casinghino, Chris and Sj{\"o}berg, Vilhelm and Weirich, Stephanie},
   booktitle = {{{ACM SIGPLAN Notices}}},
@@ -120,6 +164,23 @@
   institution = {{Technical report, Technische Universit{\"a}t M{\"u}nchen}},
   title = {Generic {{Proof Synthesis}} for {{Presburger Arithmetic}}},
   year = {2003}
+}
+
+@article{Chargueraud2012,
+  abstract = {This paper provides an introduction to the locally nameless approach to the representation of syntax with variable binding, focusing in particular on the use of this technique in formal proofs. First, we explain the benefits of representing bound variables with de Bruijn indices while retaining names for free variables. Then, we explain how to describe and manipulate syntax in that form, and show how to define and reason about judgments on locally nameless terms.},
+  author = {Chargu{\'e}raud, Arthur},
+  doi = {10.1007/s10817-011-9225-2},
+  file = {/home/uma/.zotero/data/storage/6RT2UBX4/Charguéraud - 2012 - The Locally Nameless Representation.pdf},
+  issn = {0168-7433, 1573-0670},
+  journal = {Journal of Automated Reasoning},
+  keywords = {check},
+  language = {en},
+  month = oct,
+  number = {3},
+  pages = {363-408},
+  title = {The {{Locally Nameless Representation}}},
+  volume = {49},
+  year = {2012}
 }
 
 @inproceedings{Chlipala2008,
@@ -144,6 +205,13 @@
   year = {1972}
 }
 
+@misc{CoqDeveloperCommunity,
+  author = {{Coq Developer Community}},
+  howpublished = {https://coq.inria.fr/},
+  journal = {The Coq Proof Assistant},
+  title = {The {{Coq Proof Assistant}}}
+}
+
 @article{Coquand1985,
   author = {Coquand, Thierry and Huet, G{\'e}rard},
   doi = {https://doi.org/10.1016/0890-5401(88)90005-3},
@@ -157,6 +225,20 @@
   year = {1985}
 }
 
+@inproceedings{Coquand1990,
+  author = {Coquand, Thierry and Paulin, Christine},
+  booktitle = {{{COLOG}}-88},
+  editor = {{Martin-L{\"o}f}, Per and Mints, Grigori},
+  isbn = {978-3-540-46963-6},
+  keywords = {Computation Rule,Elimination Rule,Inductive Type,Positive Operator,Type Theory},
+  language = {en},
+  pages = {50-66},
+  publisher = {{Springer Berlin Heidelberg}},
+  series = {Lecture {{Notes}} in {{Computer Science}}},
+  title = {Inductively Defined Types},
+  year = {1990}
+}
+
 @article{Curry1934,
   author = {Curry, Haskell B},
   journal = {Proceedings of the National Academy of Sciences},
@@ -165,6 +247,39 @@
   title = {Functionality in {{Combinatory Logic}}},
   volume = {20},
   year = {1934}
+}
+
+@book{Curry1980,
+  address = {{London ; New York}},
+  editor = {Curry, Haskell B. and Hindley, J. Roger and Seldin, J. P.},
+  isbn = {978-0-12-349050-6},
+  keywords = {Curry; Haskell B,Haskell Brooks,Logic; Symbolic and mathematical},
+  lccn = {QA9.2 .T6},
+  publisher = {{Academic Press}},
+  shorttitle = {To {{H}}.{{B}}. {{Curry}}},
+  title = {To {{H}}.{{B}}. {{Curry}}: Essays on Combinatory Logic, Lambda Calculus, and Formalism},
+  year = {1980}
+}
+
+@article{Dardha,
+  author = {Dardha, Ornela},
+  file = {/home/uma/.zotero/data/storage/J5EMGJS9/Dardha - Session Types in Coq.pdf},
+  language = {en},
+  pages = {28},
+  title = {Session {{Types}} in {{Coq}}}
+}
+
+@inproceedings{Dardha2012,
+  author = {Dardha, Ornela and Giachino, Elena and Sangiorgi, Davide},
+  booktitle = {Principles and {{Practice}} of {{Declarative Programming}}, {{PPDP}}'12, {{Leuven}}, {{Belgium}} - {{September}} 19 - 21, 2012},
+  doi = {10.1145/2370776.2370794},
+  editor = {Schreye, Danny De and Janssens, Gerda and King, Andy},
+  file = {/home/uma/references/papers/Dardha et al_2012_Session types revisited.pdf},
+  isbn = {978-1-4503-1522-7},
+  pages = {139--150},
+  publisher = {{ACM}},
+  title = {Session Types Revisited},
+  year = {2012}
 }
 
 @incollection{Dardha2016,
@@ -178,6 +293,23 @@
   publisher = {{Springer}},
   title = {Session {{Types Revisited}}},
   year = {2016}
+}
+
+@incollection{Dardha2018,
+  abstract = {The {$\pi$}-calculus, viewed as a core concurrent programming language, has been used as the target of much research on type systems for concurrency. In this paper we propose a new type system for deadlockfree session-typed {$\pi$}-calculus processes, by integrating two separate lines of work. The first is the propositions-as-types approach by Caires and Pfenning, which provides a linear logic foundation for session types and guarantees deadlock-freedom by forbidding cyclic process connections. The second is Kobayashi's approach in which types are annotated with priorities so that the type system can check whether or not processes contain genuine cyclic dependencies between communication operations. We combine these two techniques for the first time, and define a new and more expressive variant of classical linear logic with a proof assignment that gives a session type system with Kobayashi-style priorities. This can be seen in three ways: (i) as a new linear logic in which cyclic structures can be derived and a Cycle-elimination theorem generalises Cut-elimination; (ii) as a logically-based session type system, which is more expressive than Caires and Pfenning's; (iii) as a logical foundation for Kobayashi's system, bringing it into the sphere of the propositionsas-types paradigm.},
+  address = {{Cham}},
+  author = {Dardha, Ornela and Gay, Simon J.},
+  booktitle = {Foundations of {{Software Science}} and {{Computation Structures}}},
+  doi = {10.1007/978-3-319-89366-2_5},
+  editor = {Baier, Christel and Dal Lago, Ugo},
+  file = {/home/uma/.zotero/data/storage/JSHNKASQ/Dardha and Gay - 2018 - A New Linear Logic for Deadlock-Free Session-Typed.pdf},
+  isbn = {978-3-319-89365-5 978-3-319-89366-2},
+  language = {en},
+  pages = {91-109},
+  publisher = {{Springer International Publishing}},
+  title = {A {{New Linear Logic}} for {{Deadlock}}-{{Free Session}}-{{Typed Processes}}},
+  volume = {10803},
+  year = {2018}
 }
 
 @inproceedings{deBruijn1972,
@@ -263,11 +395,32 @@ The resulting theory is a flexible and powerful language for programming and con
   year = {1994}
 }
 
+@article{Ferreira,
+  author = {Ferreira, Francisco},
+  file = {/home/uma/.zotero/data/storage/78VDBNRE/Ferreira - Adventures in Formalising the Meta-Theory of Sessi.pdf},
+  keywords = {check},
+  language = {en},
+  pages = {27},
+  title = {Adventures in {{Formalising}} the {{Meta}}-{{Theory}} of {{Session Types}}}
+}
+
 @techreport{Fischer1974,
   author = {Fischer, Michael J and Rabin, Michael O},
   institution = {{Massachusetts Inst of Tech Cambridge Project MAC}},
   title = {Super-{{Exponential Complexity}} of {{Presburger Arithmetic}}.},
   year = {1974}
+}
+
+@book{Gastin2010,
+  address = {{Berlin}},
+  author = {Gastin, Paul and {International Conference on Concurrency Theory}},
+  isbn = {978-3-642-15374-7 978-3-642-15375-4},
+  language = {English},
+  note = {OCLC: 851074082},
+  publisher = {{Springer}},
+  shorttitle = {{{CONCUR}} 2010},
+  title = {{{CONCUR}} 2010: Concurrency Theory : 21st International Conference : Proceedings},
+  year = {2010}
 }
 
 @inproceedings{Gay2001,
@@ -312,6 +465,22 @@ The resulting theory is a flexible and powerful language for programming and con
   year = {2008}
 }
 
+@article{Gay2010,
+  abstract = {Session types support a type-theoretic formulation of structured patterns of communication, so that the communication behaviour of agents in a distributed system can be verified by static type checking. Applications include network protocols, business processes, and operating system services. In this paper we define a multithreaded functional language with session types, which unifies, simplifies and extends previous work. There are four main contributions. First: an operational semantics with buffered channels, instead of the synchronous communication of previous work. Second: we prove that the session type of a channel gives an upper bound on the necessary size of the buffer. Third: session types are manipulated by means of the standard structures of a linear type theory, rather than by means of new forms of typing judgement. Fourth: a notion of subtyping, including the standard subtyping relation for session types (imported into the functional setting), and a novel form of subtyping between standard and linear function types which allows the typechecker to handle linear types conveniently. Our new approach significantly simplifies session types in the functional setting, clarifies their essential features, and provides a secure foundation for language developments such as polymorphism and object-orientation.},
+  author = {Gay, Simon J. and Vasconcelos, Vasco T.},
+  doi = {10.1017/S0956796809990268},
+  file = {/home/uma/.zotero/data/storage/ULZB8IH7/Gay and Vasconcelos - 2010 - Linear type theory for asynchronous session types.pdf},
+  issn = {0956-7968, 1469-7653},
+  journal = {Journal of Functional Programming},
+  language = {en},
+  month = jan,
+  number = {1},
+  pages = {19-50},
+  title = {Linear Type Theory for Asynchronous Session Types},
+  volume = {20},
+  year = {2010}
+}
+
 @book{Girard1989,
   address = {{New York, NY, USA}},
   author = {Girard, Jean-Yves and Taylor, Paul and Lafont, Yves},
@@ -320,6 +489,22 @@ The resulting theory is a flexible and powerful language for programming and con
   publisher = {{Cambridge University Press}},
   title = {Proofs and {{Types}}},
   year = {1989}
+}
+
+@article{Girard1992,
+  abstract = {Usual typed lambda-calculi yield input/output specifications; in this paper the authors show how to extend this paradigm to complexity specifications. This is achieved by means of a restricted version of linear logic in which the use of exponential connectives is bounded in advance. This bounded linear logic naturally involves polynomials in its syntax and dynamics. It is then proved that any functional term of appropriate type actually encodes a polynomial-time algorithm and that conversely any polynomial-time function can be obtained in this way.},
+  author = {Girard, Jean-Yves and Scedrov, Andre and Scott, Philip J.},
+  doi = {10.1016/0304-3975(92)90386-T},
+  file = {/home/uma/.zotero/data/storage/2C6DX6CM/Girard et al. - 1992 - Bounded linear logic a modular approach to polyno.pdf;/home/uma/.zotero/data/storage/T6A83EJ4/030439759290386T.html},
+  issn = {0304-3975},
+  journal = {Theoretical Computer Science},
+  month = apr,
+  number = {1},
+  pages = {1-66},
+  shorttitle = {Bounded Linear Logic},
+  title = {Bounded Linear Logic: A Modular Approach to Polynomial-Time Computability},
+  volume = {97},
+  year = {1992}
 }
 
 @inproceedings{Giunti2010,
@@ -332,6 +517,22 @@ The resulting theory is a flexible and powerful language for programming and con
   publisher = {{Springer Berlin Heidelberg}},
   title = {A {{Linear Account}} of {{Session Types}} in the {{Pi Calculus}}},
   year = {2010}
+}
+
+@article{Goto2016,
+  abstract = {Session types describe and constrain the input/output behaviour of systems. Existing session typing systems have limited support for polymorphism. For example, existing systems cannot provide the most general type for a generic proxy process that forwards messages between two channels. We provide a polymorphic session typing system for the {$\pi$} calculus, and demonstrate the utility of session-type-level functions in combination with polymorphic session typing. The type system guarantees subject reduction and safety properties, but not deadlock freedom. We describe a formalization of the type system in Coq. The proofs of subject reduction and safety properties, as well as typing of example processes, have been mechanically verified.},
+  author = {Goto, Matthew and Jagadeesan, Radha and Jeffrey, Alan and Pitcher, Corin and Riely, James},
+  doi = {10.1017/S0960129514000231},
+  file = {/home/uma/.zotero/data/storage/E6TZEIHF/Goto et al. - 2016 - An extensible approach to session polymorphism.pdf},
+  issn = {0960-1295, 1469-8072},
+  journal = {Mathematical Structures in Computer Science},
+  language = {en},
+  month = mar,
+  number = {3},
+  pages = {465-509},
+  title = {An Extensible Approach to Session Polymorphism},
+  volume = {26},
+  year = {2016}
 }
 
 @inproceedings{Gregoire2005,
@@ -361,12 +562,60 @@ The resulting theory is a flexible and powerful language for programming and con
   year = {2013}
 }
 
+@article{Harper,
+  author = {Harper, Robert},
+  file = {/home/uma/.zotero/data/storage/QP9DWQ84/Harper - Two Notions of Beauty in Programming.pdf},
+  language = {en},
+  pages = {108},
+  title = {Two {{Notions}} of {{Beauty}} in {{Programming}}}
+}
+
 @book{Henry-Gerard1999,
   abstract = {This paper presents a method for coding pi-calculus in the COQ proof assistant, in order to use this environment to formalize properties of the pi-calculus. This method consists in making a syntactic discrimination between free names (then called parameters) and bound names (then called variables) of the processes, so that implicit renamings of bound names are avoided in the substitution operation. This technique has been used by J.McKinna and R.Pollack in an extensive study of PTS [5]. We use this coding here to prove subject reduction property for a type system of a monadic pi-calculus.},
   author = {{Henry-G{\'e}rard}, Lo{\"i}c and Meije, Projet},
   file = {/home/uma/references/papers/Henry-Gérard_Meije_1999_Proof of the subject reduction property for a π-calculus in COQ.pdf;/home/uma/.zotero/data/storage/FVFRE453/summary.html},
   title = {Proof of the Subject Reduction Property for a {$\pi$}-Calculus in {{COQ}}},
   year = {1999}
+}
+
+@article{Herbelin,
+  author = {Herbelin, Hugo},
+  file = {/home/uma/.zotero/data/storage/SCE3FQU9/Herbelin - The Calculus of Inductive Constructions.pdf},
+  language = {en},
+  pages = {24},
+  title = {The {{Calculus}} of {{Inductive Constructions}}}
+}
+
+@inproceedings{Honda1993,
+  abstract = {We formulate a typed formalism for concurrency where types denote freely composable structure of dyadic interaction in the symmetric scheme. The resulting calculus is a typed reconstruction of name passing process calculi. Systems with both the explicit and implicit typing disciplines, where types form a simple hierarchy of types, are presented, which are proved to be in accordance with each other. A typed variant of bisimilarity is formulated and it is shown that typed {$\beta$}-equality has a clean embedding in the bisimilarity. Name reference structure induced by the simple hierarchy of types is studied, which fully characterises the typable terms in the set of untyped terms. It turns out that the name reference structure results in the deadlock-free property for a subset of terms with a certain regular structure, showing behavioural significance of the simple type discipline.},
+  author = {Honda, Kohei},
+  booktitle = {{{CONCUR}}'93},
+  editor = {Best, Eike},
+  isbn = {978-3-540-47968-0},
+  keywords = {Atomic Type,Constant Symbol,Dyadic Interaction,Functional Type,Reference Structure},
+  language = {en},
+  pages = {509-523},
+  publisher = {{Springer Berlin Heidelberg}},
+  series = {Lecture {{Notes}} in {{Computer Science}}},
+  title = {Types for Dyadic Interaction},
+  year = {1993}
+}
+
+@incollection{Honda1998,
+  abstract = {We introduce basic language constructs and a type discipline as a foundation of structured communication-based concurrent programming. The constructs, which are easily translatable into the summation-less asynchronous {$\pi$}-calculus, allow programmers to organise programs as a combination of multiple flows of (possibly unbounded) reciprocal interactions in a simple and elegant way, subsuming the preceding communication primitives such as method invocation and rendez-vous. The resulting syntactic structure is exploited by a type discipline `a la ML, which offers a high-level type abstraction of interactive behaviours of programs as well as guaranteeing the compatibility of interaction patterns between processes in a well-typed program. After presenting the formal semantics, the use of language constructs is illustrated through examples, and the basic syntactic results of the type discipline are established. Implementation concerns are also addressed.},
+  address = {{Berlin, Heidelberg}},
+  author = {Honda, Kohei and Vasconcelos, Vasco T. and Kubo, Makoto},
+  booktitle = {Programming {{Languages}} and {{Systems}}},
+  doi = {10.1007/BFb0053567},
+  editor = {Goos, Gerhard and Hartmanis, Juris and {van Leeuwen}, Jan and Hankin, Chris},
+  file = {/home/uma/.zotero/data/storage/FSEHSQGD/Honda et al. - 1998 - Language primitives and type discipline for struct.pdf},
+  isbn = {978-3-540-64302-9 978-3-540-69722-0},
+  language = {en},
+  pages = {122-138},
+  publisher = {{Springer Berlin Heidelberg}},
+  title = {Language Primitives and Type Discipline for Structured Communication-Based Programming},
+  volume = {1381},
+  year = {1998}
 }
 
 @inproceedings{Honda2008,
@@ -440,6 +689,18 @@ The resulting theory is a flexible and powerful language for programming and con
   year = {1996}
 }
 
+@article{Kobayashi1999,
+  author = {Kobayashi, Naoki and Pierce, Benjamin and N. Turner, David},
+  doi = {10.1145/330249.330251},
+  file = {/home/uma/references/papers/Kobayashi et al_1999_Linearity and the Pi-Calculus.pdf},
+  journal = {ACM Transactions on Programming Languages and Systems (TOPLAS)},
+  month = dec,
+  pages = {914-947},
+  title = {Linearity and the {{Pi}}-{{Calculus}}},
+  volume = {21},
+  year = {1999}
+}
+
 @article{Kobayashi2002,
   author = {Kobayashi, Naoki},
   doi = {10.1006/inco.2002.3171},
@@ -451,6 +712,56 @@ The resulting theory is a flexible and powerful language for programming and con
   year = {2002}
 }
 
+@incollection{Kobayashi2003,
+  address = {{Berlin, Heidelberg}},
+  author = {Kobayashi, Naoki},
+  booktitle = {Formal {{Methods}} at the {{Crossroads}}. {{From Panacea}} to {{Foundational Support}}},
+  doi = {10.1007/978-3-540-40007-3_26},
+  editor = {Goos, Gerhard and Hartmanis, Juris and {van Leeuwen}, Jan and Aichernig, Bernhard K. and Maibaum, Tom},
+  file = {/home/uma/.zotero/data/storage/JX4NCLRW/Kobayashi - 2003 - Type Systems for Concurrent Programs.pdf},
+  isbn = {978-3-540-20527-2 978-3-540-40007-3},
+  language = {en},
+  pages = {439-453},
+  publisher = {{Springer Berlin Heidelberg}},
+  title = {Type {{Systems}} for {{Concurrent Programs}}},
+  volume = {2757},
+  year = {2003}
+}
+
+@incollection{Kobayashi2003a,
+  address = {{Berlin, Heidelberg}},
+  author = {Kobayashi, Naoki},
+  booktitle = {Formal {{Methods}} at the {{Crossroads}}. {{From Panacea}} to {{Foundational Support}}},
+  doi = {10.1007/978-3-540-40007-3_26},
+  editor = {Goos, Gerhard and Hartmanis, Juris and {van Leeuwen}, Jan and Aichernig, Bernhard K. and Maibaum, Tom},
+  isbn = {978-3-540-20527-2 978-3-540-40007-3},
+  language = {en},
+  pages = {439-453},
+  publisher = {{Springer Berlin Heidelberg}},
+  title = {Type {{Systems}} for {{Concurrent Programs}}},
+  volume = {2757},
+  year = {2003}
+}
+
+@inproceedings{Kobayashi2006,
+  abstract = {We extend a previous type system for the {$\pi$}-calculus that guarantees deadlock-freedom. The previous type systems for deadlock- freedom either lacked a reasonable type inference algorithm or were not strong enough to ensure deadlock-freedom of processes using recursion. Although the extension is fairly simple, the new type system admits type inference and is much more expressive than the previous type systems that admit type inference. In fact, we show that the simply-typed {$\lambda$}- calculus with recursion can be encoded into the deadlock-free fragment of our typed {$\pi$}-calculus. To enable analysis of realistic programs, we also present an extension of the type system to handle recursive data structures like lists. Both extensions have already been incorporated into the recent release of TyPiCal, a type-based analyzer for the {$\pi$}-calculus.},
+  author = {Kobayashi, Naoki},
+  doi = {10.1007/11817949_16},
+  file = {/home/uma/.zotero/data/storage/BDGUANKY/Kobayashi - 2006 - A New Type System for Deadlock-Free Processes.pdf},
+  month = jan,
+  pages = {233-247},
+  title = {A {{New Type System}} for {{Deadlock}}-{{Free Processes}}},
+  year = {2006}
+}
+
+@techreport{Kobayashi2007,
+  author = {Kobayashi, Naoki},
+  institution = {{Tohoku University}},
+  note = {Extended version of Kobayashi 2003},
+  title = {Type Systems for Concurrent Programs},
+  year = {2007}
+}
+
 @inproceedings{Kokke2015,
   author = {Kokke, Wen and Swierstra, Wouter},
   booktitle = {International {{Conference}} on {{Mathematics}} of {{Program Construction}}},
@@ -458,6 +769,23 @@ The resulting theory is a flexible and powerful language for programming and con
   publisher = {{Springer}},
   title = {Auto in {{Agda}}},
   year = {2015}
+}
+
+@incollection{Koomen1991,
+  abstract = {The Calculus of Communicating Systems (CCS) originates from Robin Milner. CCS deals with communication behaviours of (non-deterministic) finite state machines. Among the first publications on CCS is [Mil78]. In 1980, Milner published his first book on CCS [Mil80]; [Mil89] is an update of the previous book with many new results. The calculus is meant as a formal mathematical framework which can be used to specify communicating systems and to verify properties of them. A system is considered to consist of parts, each of which has an own identity, which persists through time. A system will be characterized by the actions it can perform.},
+  address = {{Boston, MA}},
+  author = {Koomen, C. J.},
+  booktitle = {The {{Design}} of {{Communicating Systems}}: {{A System Engineering Approach}}},
+  doi = {10.1007/978-1-4615-4020-5_2},
+  editor = {Koomen, C. J.},
+  isbn = {978-1-4615-4020-5},
+  keywords = {Behaviour Equation,Input Port,Normal Form,Output Port,State Graph},
+  language = {en},
+  pages = {11-26},
+  publisher = {{Springer US}},
+  series = {The {{Springer International Series}} in {{Engineering}} and {{Computer Science}}},
+  title = {Calculus of {{Communicating Systems}}},
+  year = {1991}
 }
 
 @article{Krishnaswami2015,
@@ -468,6 +796,31 @@ The resulting theory is a flexible and powerful language for programming and con
   pages = {17-30},
   title = {Integrating {{Dependent}} and {{Linear Types}}},
   volume = {2015},
+  year = {2015}
+}
+
+@article{Lindley,
+  abstract = {Row types provide an account of extensibility that combines well with parametric polymorphism and type inference. We discuss the integration of row types and session types in a concurrent functional programming language, and how row types can be used to describe extensibility in session-typed communication.},
+  author = {Lindley, Sam and Morris, J Garrett},
+  file = {/home/uma/.zotero/data/storage/YT6IF428/Lindley and Morris - Lightweight Functional Session Types.pdf},
+  language = {en},
+  pages = {20},
+  title = {Lightweight {{Functional Session Types}}}
+}
+
+@inproceedings{Lindley2015,
+  abstract = {Session types provide a static guarantee that concurrent programs respect communication protocols. Recently, Caires, Pfenning, and Toninho, and Wadler, have developed a correspondence between propositions of linear logic and session typed {$\pi$}-calculus processes. We relate the cut-elimination semantics of this approach to an operational semantics for session-typed concurrency in a functional language. We begin by presenting a variant of Wadler's session-typed core functional language, GV. We give a small-step operational semantics for GV. We develop a suitable notion of deadlock, based on existing approaches for capturing deadlock in {$\pi$}-calculus, and show that all well-typed GV programs are deadlock-free, deterministic, and terminating. We relate GV to linear logic by giving translations between GV and CP, a process calculus with a type system and semantics based on classical linear logic. We prove that both directions of our translation preserve reduction; previous translations from GV to CP, in contrast, failed to preserve {$\beta$}-reduction. Furthermore, to demonstrate the modularity of our approach, we define two extensions of GV which preserve deadlock-freedom, determinism, and termination.},
+  author = {Lindley, Sam and Morris, J. Garrett},
+  booktitle = {Programming {{Languages}} and {{Systems}}},
+  editor = {Vitek, Jan},
+  file = {/home/uma/.zotero/data/storage/ZDXAZDMH/Lindley and Morris - 2015 - A Semantics for Propositions as Sessions.pdf},
+  isbn = {978-3-662-46669-8},
+  keywords = {Closed Channel,Functional Language,Linear Logic,Reduction Rule,Typing Rule},
+  language = {en},
+  pages = {560-584},
+  publisher = {{Springer Berlin Heidelberg}},
+  series = {Lecture {{Notes}} in {{Computer Science}}},
+  title = {A {{Semantics}} for {{Propositions}} as {{Sessions}}},
   year = {2015}
 }
 
@@ -526,6 +879,48 @@ The resulting theory is a flexible and powerful language for programming and con
   publisher = {{Springer International Publishing}},
   title = {I {{Got Plenty}} o' {{Nuttin}}'},
   year = {2016}
+}
+
+@book{Milner1980,
+  abstract = {A Calculus of Communicating Systems...},
+  address = {{Berlin Heidelberg}},
+  author = {Milner, R.},
+  file = {/home/uma/.zotero/data/storage/NF8LPBSP/9783540102359.html},
+  isbn = {978-3-540-10235-9},
+  language = {en},
+  publisher = {{Springer-Verlag}},
+  series = {Lecture {{Notes}} in {{Computer Science}}},
+  title = {A {{Calculus}} of {{Communicating Systems}}},
+  year = {1980}
+}
+
+@book{Milner1982,
+  author = {Milner, R.},
+  isbn = {978-0-387-10235-1},
+  month = jan,
+  publisher = {{Springer-Verlag}},
+  title = {A {{Calculus}} of {{Communicating Systems}}},
+  year = {1982}
+}
+
+@book{Milner1989,
+  author = {Milner, R.},
+  isbn = {978-0-13-114984-7},
+  month = jan,
+  publisher = {{Prentice-Hall, Inc.}},
+  title = {Communication and {{Concurrency}}},
+  year = {1989}
+}
+
+@inproceedings{Milner1991,
+  author = {Milner, Robin},
+  booktitle = {Handbook of Theoretical Computer Science (Vol. {{B}})},
+  isbn = {978-0-444-88074-1},
+  month = feb,
+  pages = {1201-1242},
+  publisher = {{MIT Press}},
+  title = {Operational and Algebraic Semantics of Concurrent Processes},
+  year = {1991}
 }
 
 @article{Morris2016,
@@ -598,6 +993,16 @@ The resulting theory is a flexible and powerful language for programming and con
   year = {2006}
 }
 
+@article{Orchard,
+  abstract = {DOMINIC ORCHARD, University of Kent, UK VILEM-BENJAMIN LIEPELT, University of Kent, UK HARLEY EADES III, Augusta University, USA In programming, some data acts as a resource (e.g., file handles, channels) subject to usage constraints. This poses a challenge to software correctness as most languages are agnostic to constraints on data. The approach of linear types provides a partial remedy, delineating data into resources to be used but never copied or discarded, and unconstrained values. Bounded Linear Logic provides a more fine-grained approach, quantifying non-linear use via an indexed-family of modalities. Recent work on coeffect types generalises this idea to graded comonads, providing type systems which can capture various program properties. Here, we propose the umbrella notion of graded modal types, encompassing coeffect types and dual notions of type-based effect reasoning via graded monads. In combination with linear and indexed types, we show that graded modal types provide an expressive type theory for quantitative program reasoning, advancing the reach of type systems to capture and verify a broader set of program properties. We demonstrate this approach via a type system embodied in a fully-fledged functional language called Granule, exploring various examples. CCS Concepts: \textbullet{} Theory of computation \textrightarrow Modal and temporal logics; Program specifications; Program verification; Linear logic; Type theory.},
+  author = {Orchard, Dominic and Liepelt, Vilem-Benjamin and Iii, Harley Eades},
+  file = {/home/uma/.zotero/data/storage/GQM74RPQ/Orchard et al. - Quantitative Program Reasoning with Graded Modal T.pdf},
+  language = {en},
+  pages = {30},
+  title = {Quantitative {{Program Reasoning}} with {{Graded Modal Types}}},
+  volume = {3}
+}
+
 @article{Oury2008,
   author = {Oury, Nicolas and Swierstra, Wouter},
   journal = {ACM Sigplan Notices},
@@ -618,6 +1023,14 @@ The resulting theory is a flexible and powerful language for programming and con
   title = {The {{Linearity Monad}}},
   volume = {52},
   year = {2017}
+}
+
+@article{Petz,
+  author = {Petz, Adam},
+  file = {/home/uma/.zotero/data/storage/6SG39KD6/Petz - A Semantics for Attestation Protocols using Sessio.pdf},
+  language = {en},
+  pages = {61},
+  title = {A {{Semantics}} for {{Attestation Protocols}} Using {{Session Types}} in {{Coq}}}
 }
 
 @book{Pierce2002,
@@ -666,6 +1079,27 @@ The resulting theory is a flexible and powerful language for programming and con
   pages = {75-93},
   title = {Modal {{Linear Logic}} in {{Higher Order Logic}}: {{An Experiment}} with {{Coq}}},
   year = {2003}
+}
+
+@book{Sangiorgi2001,
+  abstract = {From the Publisher:Mobile systems, whose components communicate and change their structure, now pervade the informational world and the wider world of which it is a part. The science of mobile systems is as yet immature, however. This book presents the pi-calculus, a theory of mobile systems. The pi-calculus provides a conceptual framework for understanding mobility, and mathematical tools for expressing systems and reasoning about their behaviors.
+The book serves both as a reference for the theory and as an extended demonstration of how to use pi-calculus to describe systems and analyze their properties. It covers the basic theory of pi-calculus, typed pi-calculi, higher-order processes, the relationship between pi-calculus and lambda-calculus, and applications of pi-calculus to object-oriented design and programming.
+The book is written at the graduate level, assuming no prior acquaintance with the subject, and is intended for computer scientists interested in mobile systems.},
+  address = {{New York, NY, USA}},
+  author = {Sangiorgi, Davide and Walker, David},
+  isbn = {978-0-521-78177-0},
+  publisher = {{Cambridge University Press}},
+  shorttitle = {{{PI}}-{{Calculus}}},
+  title = {{{PI}}-{{Calculus}}: {{A Theory}} of {{Mobile Processes}}},
+  year = {2001}
+}
+
+@article{Scagnetto,
+  author = {Scagnetto, Ivan},
+  file = {/home/uma/.zotero/data/storage/EQX65FWZ/Scagnetto - A Theory of Contexts for Higher-Order Encodings  o.pdf},
+  language = {en},
+  pages = {29},
+  title = {A {{Theory}} of {{Contexts}} for {{Higher}}-{{Order Encodings}}  of {{Process Algebras}}}
 }
 
 @inproceedings{Schack-Nielsen2008,
@@ -790,6 +1224,17 @@ We propose a calculus for synchronous functional two-party session types, augmen
   year = {2012}
 }
 
+@inproceedings{Vasconcelos1992,
+  abstract = {The present report introduces a typing system for a version of Milner's polyadic  {\ss}-calculus, and a typing inference algorithm. The central concept underlying the typing system is the notion of type assignment, where each free name in a term is assigned a type, the term itself being given multiple name-type pairs. This observation leads to a clean typing system for Milner's sorting, and induces an efficient algorithm to infer the typing of a term. The typing system enjoys a subject-reduction property and possesses a notion of principal typing-scheme. Furthermore, the algorithm to reconstruct the principal typing-scheme of a process, or to detect its inexistence, is proved correct with respect to the typing system.   1. Introduction Type discipline helps programmers not only in writing type-correct programs but especially in writing them in a principled and clear way. Concurrent programming, however, has long lacked such discipline, in contrast to functional and algebraic frameworks i...},
+  author = {Vasconcelos, Vasco Thudichum and Honda, Kohei},
+  booktitle = {In 4th {{International Conference}} on {{Concurrency Theory}}, Volume 715 of {{LNCS}}},
+  file = {/home/uma/.zotero/data/storage/7JFIF65X/Vasconcelos and Honda - 1992 - Principal Typing-Schemes in a Polyadic π-Calculus.pdf;/home/uma/.zotero/data/storage/UY624LC9/summary.html},
+  pages = {524--538},
+  publisher = {{Springer-Verlag}},
+  title = {Principal {{Typing}}-{{Schemes}} in a {{Polyadic}} {$\pi$}-{{Calculus}}},
+  year = {1992}
+}
+
 @incollection{Vasconcelos2009,
   author = {Vasconcelos, Vasco},
   booktitle = {Information and {{Computation}}},
@@ -903,6 +1348,112 @@ This project considers the development of such automated theorem provers in Agda
   title = {Evidence-Providing Problem Solvers in {{Agda}}},
   type = {Dissertation},
   year = {2018}
+}
+
+@misc{zotero-357,
+  howpublished = {https://www.cs.bham.ac.uk/\textasciitilde{}mhe/HoTT-UF-in-Agda-Lecture-Notes/index.html},
+  keywords = {agda},
+  title = {Introduction to {{Univalent Foundations}} of {{Mathematics}} with {{Agda}}}
+}
+
+@misc{zotero-358,
+  howpublished = {https://www.um.edu.mt/projects/behapi/behapi-workshop-etaps-2019/},
+  keywords = {sessiontypes},
+  title = {{{BehAPI Workshop}} @ {{ETAPS}} 2019 \textendash{} {{BehAPI}}}
+}
+
+@misc{zotero-359,
+  howpublished = {https://plfa.github.io/},
+  keywords = {agda},
+  title = {Programming {{Language Foundations}} in {{Agda}}}
+}
+
+@misc{zotero-360,
+  howpublished = {https://doisinkidney.com/posts/2019-04-17-cubical-probability.html},
+  keywords = {agda},
+  title = {Probability {{Monads}} in {{Cubical Agda}} - {{Donnacha Ois{\'i}n Kidney}}}
+}
+
+@misc{zotero-361,
+  howpublished = {https://github.com/peterthiemann/definitional-session/},
+  keywords = {agda,sessiontypes},
+  title = {Session Types in {{Agda}}}
+}
+
+@misc{zotero-362,
+  abstract = {WATCHING},
+  howpublished = {https://www.youtube.com/watch?v=eC1k0CEUO6E\&list=PLo61mJSqK5cWnrvfIcn89amVRgN9llVJG},
+  keywords = {linearity},
+  title = {Linear Logic Lectures}
+}
+
+@misc{zotero-363,
+  abstract = {PENDING},
+  howpublished = {https://www.youtube.com/watch?v=R7pJDDNy--k},
+  keywords = {linearity,sessiontypes},
+  title = {Linear {{Logic}}, {{Session Types}} and {{Deadlock}}-{{Freedom}}}
+}
+
+@misc{zotero-364,
+  howpublished = {https://www.youtube.com/watch?v=1AYxMbYZQ1Y},
+  keywords = {research},
+  title = {How to Write a Great Research Paper}
+}
+
+@misc{zotero-365,
+  abstract = {This lump of Agda is a talk I gave at the Scottish Programming Languages Seminar, some Wednesday last term at Heriot-Watt, in a brief oasis of research activity. I originally wrote it in my notebook coming back from Arran on the ferry, sometime in 2013 (or was it earlier?), chatting with Peter Hancock. As for\ldots{}},
+  howpublished = {https://pigworker.wordpress.com/2015/01/04/traffic-dependent-session-types/},
+  keywords = {dependenttypes,sessiontypes},
+  title = {Traffic-Dependent Session Types | Pigworker in a Space}
+}
+
+@misc{zotero-366,
+  abstract = {Typed DSLs for sorting. Contribute to bobatkey/sorting-types development by creating an account on GitHub.},
+  howpublished = {https://github.com/bobatkey/sorting-types},
+  title = {{{GitHub}} - Bobatkey/Sorting-Types: {{Typed DSLs}} for Sorting}
+}
+
+@misc{zotero-367,
+  abstract = {Equational Reasoning in Coq, using tactics inside terms! - EquationalReasoning.v},
+  howpublished = {https://gist.github.com/gallais/f046bcc2c348c5fed5e9},
+  keywords = {coq,ltac},
+  title = {Equational {{Reasoning}} in {{Coq}}, Using Tactics inside Terms! {$\cdot$} {{GitHub}}}
+}
+
+@misc{zotero-368,
+  keywords = {check},
+  title = {Untyped Lambda Calculus \textemdash{} Showing That Omega  Diverges}
+}
+
+@misc{zotero-391,
+  file = {/home/uma/.zotero/data/storage/RQJ59TW7/pi-calculus.html},
+  howpublished = {https://users.dimi.uniud.it/\textasciitilde{}ivan.scagnetto/pi-calculus.html},
+  title = {Pi-{{Calculus}} in ({{Co}}){{Inductive Type Theory}}}
+}
+
+@misc{zotero-415,
+  file = {/home/uma/.zotero/data/storage/C79KN2N2/605DA26DDDE9B1CCD35D33D0D62DF20C.html},
+  howpublished = {https://www.cambridge.org/core/journals/journal-of-functional-programming/article/div-classtitlelinear-type-theory-for-asynchronous-session-typesdiv/605DA26DDDE9B1CCD35D33D0D62DF20C},
+  title = {Linear Type Theory for Asynchronous Session Types | {{Journal}} of {{Functional Programming}} | {{Cambridge Core}}}
+}
+
+@misc{zotero-454,
+  file = {/home/uma/.zotero/data/storage/WTWE7JQI/why-must-inductive-types-be-strictly-positive.html},
+  howpublished = {https://vilhelms.github.io/posts/why-must-inductive-types-be-strictly-positive/},
+  title = {Why Must Inductive Types Be Strictly Positive? \textendash{} {{Code}} and Stuff}
+}
+
+@misc{zotero-458,
+  file = {/home/uma/.zotero/data/storage/LKYAKVAY/atypeofprogramming.com.html},
+  howpublished = {https://atypeofprogramming.com/},
+  title = {A {{Type}} of {{Programming}}}
+}
+
+@misc{zotero-549,
+  file = {/home/uma/.zotero/data/storage/5SRCA3UC/proving-the-church-rosser-theorem.html},
+  keywords = {check},
+  language = {en-US},
+  title = {Proving the {{Church}}-{{Rosser Theorem Using}} a {{Locally Nameless Representation}} | Niche Computing Science}
 }
 
 
